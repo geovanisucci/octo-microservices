@@ -13,13 +13,13 @@
 
 
     <groupId>com.br.octo</groupId>
-    <artifactId>hr-worker</artifactId>
+    <artifactId>hr-eureka-server</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>hr-worker</name>
-    <description>Worker Microservice</description>
+    <name>hr-eureka-server</name>
+    <description>Servidor Eureka</description>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>a
+        <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <java.version>11</java.version>
     </properties>
