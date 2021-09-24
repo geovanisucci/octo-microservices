@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc2a1e8a-36b8-44c7-bc2a-98837bf4b1df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hr-config-server/src/main/java/com/br/octo/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hr-config-server/src/main/java/com/br/octo/hrconfigserver/HrConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-config-server/src/main/java/com/br/octo/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hr-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-config-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
