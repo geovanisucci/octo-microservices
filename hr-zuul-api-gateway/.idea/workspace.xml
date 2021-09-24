@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc2a1e8a-36b8-44c7-bc2a-98837bf4b1df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
