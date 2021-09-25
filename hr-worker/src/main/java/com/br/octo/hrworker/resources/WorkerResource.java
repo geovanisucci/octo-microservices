@@ -5,6 +5,7 @@ import com.br.octo.hrworker.repositories.WorkerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +20,10 @@ import java.util.List;
 public class WorkerResource {
 
     private static Logger logger = LoggerFactory.getLogger(WorkerResource.class);
+
+    @Value("${test.config}")
+    private String testConfig;
+
     @Autowired
     private Environment env;
     @Autowired
@@ -31,6 +36,14 @@ public class WorkerResource {
 
         return ResponseEntity.ok(list);
     }
+
+    @GetMapping("/configs")
+    public ResponseEntity<Void> getConfigs(){
+        logger.info(testConfig);
+
+        return ResponseEntity.noContent().build();
+    }
+
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<Worker>FindById(@PathVariable Long id){
