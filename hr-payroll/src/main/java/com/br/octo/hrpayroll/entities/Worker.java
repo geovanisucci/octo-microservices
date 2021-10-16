@@ -1,6 +1,5 @@
 package com.br.octo.hrpayroll.entities;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
